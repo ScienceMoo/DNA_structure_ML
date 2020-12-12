@@ -23,7 +23,8 @@ function [pwmatrix, bd_length] = getPWM(TF_OI)
         end
         thisline = fgetl(f);
     end
-    pwmatrix = pwmatrix + 0.001
-    pwmatrix = log(pwmatrix)
+    pwmatrix
+    pwmatrix = pwmatrix + 0.001;
+    pwmatrix = log(pwmatrix);
     fclose(f);
 end
