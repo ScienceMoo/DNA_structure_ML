@@ -1,8 +1,5 @@
 # Prediction	of	transcription	factor	binding	based on	DNA	sequence
 
-### Report
-[TF binding ML project.pdf](TF binding ML project.pdf)
-
 ### Machine learning notebooks
 * Classifying sequences as bound or unbound using only sequence data (target is either 0 or 1)
 [Binary_Classification_without_shapes.ipynb](Binary_Classification_without_shapes.ipynb)
